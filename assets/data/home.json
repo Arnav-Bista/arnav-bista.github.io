@@ -1,0 +1,59 @@
+{
+    "sections": [{
+            "title": "Interesting Projects",
+            "data": [{
+                    "title": "The Travelling Salesman Problem",
+                    "language": ["julia"],
+                    "description": "Genetic Algortihms",
+                    "img": "ga.gif",
+                    "imgCredits": "Me",
+                    "link": "#"
+                },
+                {
+                    "title": "Lorenz System",
+                    "language": ["julia"],
+                    "description": "Simulation",
+                    "img": "lorenz.gif",
+                    "imgCredits": "Me",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "title": "Machine Learning",
+            "data": [{
+                    "title": "Banknote Authentication",
+                    "language": ["julia"],
+                    "description": "Logistic Regression",
+                    "img": "banknote-auth.jpg",
+                    "imgCredits": "B.Roessler on dpa Alliance",
+                    "link": "#"
+                },
+                {
+                    "title": "Iris Flower Classification",
+                    "language": ["julia"],
+                    "description": "K Nearest Neighbours",
+                    "img": "iris.jpg",
+                    "imgCredits": "Kevin CASTEL on Unsplash",
+                    "link": "#"
+                },
+                {
+                    "title": "Breast Cancer Classification",
+                    "language": ["julia"],
+                    "description": "Logistic Regression",
+                    "img": "breast-cancer.jpg",
+                    "imgCredits": "UCI Machine Learning",
+                    "link": "#"
+                },
+                {
+                    "title": "Housing Sales Prediction",
+                    "language": ["julia", "python"],
+                    "description": "Multi-Varie Linear Regression",
+                    "img": "housing.jpg",
+                    "imgCredits": "Michael Tuszynski on Pexels",
+                    "link": "#"
+                }
+            ]
+        }
+    ]
+}
