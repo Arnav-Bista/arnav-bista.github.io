@@ -41,6 +41,7 @@ const TILE_INNER = [
 
 function createTile(data) {
     let arr = [TILE_STRUCTURE.length];
+    let enabled = true;
     for (let i = 0; i < TILE_STRUCTURE.length; i++) {
         if (TILE_STRUCTURE[i] === "MultiImg") {
             let temp;
@@ -78,6 +79,9 @@ function createTile(data) {
     arr[0].appendChild(arr[3]);
     arr[0].appendChild(arr[4]);
     arr[0].setAttribute(`onclick`, `location.href="${data.link}"`);
+    if (data.link === "#" || "") {
+        arr[0].classList.add("disabled");
+    }
     arr[0].setAttribute("style", "cursor: pointer;");
     return arr[0];
 }

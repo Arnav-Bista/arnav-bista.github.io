@@ -224,3 +224,19 @@ nav a:after {
     padding: 10px;
     margin-bottom: 15px;
 }
+
+.main-language {
+    display: inline-flexbox;
+    background-color: #313638;
+}
+
+.main-language a {
+    color: #f7b32b;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 30px
+}
+
+.disabled {
+    filter: opacity(0.5);
+}

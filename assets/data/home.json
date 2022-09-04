@@ -16,6 +16,14 @@
                     "img": "lorenz.gif",
                     "imgCredits": "Me",
                     "link": "#"
+                },
+                {
+                    "title": "Conway's Game of Life",
+                    "language": ["python"],
+                    "description": "Simulation/Game",
+                    "img": "conways-game-of-life.gif",
+                    "imgCredits": "Lucas Vieira",
+                    "link": "#"
                 }
             ]
         },
@@ -27,7 +35,7 @@
                     "description": "Logistic Regression",
                     "img": "banknote-auth.jpg",
                     "imgCredits": "B.Roessler on dpa Alliance",
-                    "link": "#"
+                    "link": "./pages/banknote-auth.html"
                 },
                 {
                     "title": "Iris Flower Classification",
@@ -54,6 +62,17 @@
                     "link": "#"
                 }
             ]
+        },
+        {
+            "title": "Machine Learning Explained",
+            "data": [{
+                "title": "Logistic Regression",
+                "language": ["article"],
+                "description": "Basic binary classification model",
+                "img": "",
+                "imgCredits": "",
+                "link": "#"
+            }]
         }
     ]
 }
