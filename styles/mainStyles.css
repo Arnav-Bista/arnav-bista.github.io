@@ -172,6 +172,8 @@ nav a:after {
 }
 
 .tile-body {
+    /* background-color: #17255a; */
+    width: 100%;
     height: 15%;
     padding: 2px;
     display: flex;
@@ -180,11 +182,14 @@ nav a:after {
 }
 
 .tile-body img {
-    height: 100%;
+    display: inline-block;
+    /* background-color: #17255a; */
+    /* height: 100%; */
     width: auto;
     padding: 0;
     margin-top: 2%;
     margin-left: 5px;
+    object-fit: scale-down;
 }
 
 .tile-body-detail {
@@ -226,7 +231,7 @@ nav a:after {
 }
 
 .main-language {
-    display: inline-flexbox;
+    display: inline-block;
     background-color: #313638;
 }
 

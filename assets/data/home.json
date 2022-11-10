@@ -43,7 +43,7 @@
                     "description": "K Nearest Neighbours",
                     "img": "iris.jpg",
                     "imgCredits": "Kevin CASTEL on Unsplash",
-                    "link": "#"
+                    "link": "./pages/iris-flower-classification.html"
                 },
                 {
                     "title": "Breast Cancer Classification",
