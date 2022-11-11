@@ -24,7 +24,7 @@ KNN sticks to the philosophy of "birds of a feather flock together". Given an in
 
 Simply put:
 
-```
+```nolanguage
 KNN(X,K):
     Calculate the distances between X and the datset
     Find the K closest points about X
@@ -33,7 +33,8 @@ KNN(X,K):
 end
 ```
 
-## Code 
+## Code
+
 (Available in GitHub)
 
 ```julia
@@ -157,6 +158,6 @@ Test(split,K)n
 
 With the standard 70:30 Split in training and testing, I consistently get about 90% correctly classified with `K = 3`. Although this is a lazy algorithm, it's quite good at classifying.
 
-Besides from classifications, it can also be used to fill in missing values from a dataset to then train a more sophisticated model. 
+Besides from classifications, it can also be used to fill in missing values from a dataset to then train a more sophisticated model.
 
 This model does have its limitations. It works wonderfully in medium to small sized datasets, however, when datasets get large with tens of thousands of datapoints - each with their own tens or hundreds of features - it becomes obsolete.

@@ -69,8 +69,8 @@
                 "title": "Logistic Regression",
                 "language": ["article"],
                 "description": "Basic binary classification model",
-                "img": "",
-                "imgCredits": "",
+                "img": "binary-classification.png",
+                "imgCredits": "Me",
                 "link": "#"
             }]
         }

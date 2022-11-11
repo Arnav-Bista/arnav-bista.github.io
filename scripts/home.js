@@ -40,8 +40,7 @@ const TILE_INNER = [
 ];
 
 function createTile(data) {
-    let arr = [TILE_STRUCTURE.length];
-    let enabled = true;
+    let arr = [];
     for (let i = 0; i < TILE_STRUCTURE.length; i++) {
         if (TILE_STRUCTURE[i] === "MultiImg") {
             let temp;
@@ -88,6 +87,7 @@ function createTile(data) {
 
 function builder(data) {
     let mainDiv = document.getElementsByClassName("main-content")[0];
+    // Could do this in an array but this makes it easier to read
     let ul;
     let div;
     let a;
