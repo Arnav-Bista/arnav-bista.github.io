@@ -4,10 +4,10 @@
             "data": [{
                     "title": "The Travelling Salesman Problem",
                     "language": ["julia"],
-                    "description": "Genetic Algortihms",
+                    "description": "Genetic Algortihms (Github)",
                     "img": "ga.gif",
                     "imgCredits": "Me",
-                    "link": "#"
+                    "link": "https://github.com/Arnav-Bista/Genetic-Algorithms"
                 },
                 {
                     "title": "Lorenz System",
@@ -20,10 +20,10 @@
                 {
                     "title": "Conway's Game of Life",
                     "language": ["python"],
-                    "description": "Simulation/Game",
+                    "description": "Simulation/Game (Github)",
                     "img": "conways-game-of-life.gif",
                     "imgCredits": "Lucas Vieira",
-                    "link": "#"
+                    "link": "https://github.com/Arnav-Bista/conways_game_of_life"
                 }
             ]
         },
@@ -56,10 +56,10 @@
                 {
                     "title": "Housing Sales Prediction",
                     "language": ["julia", "python"],
-                    "description": "Multi-Varie Linear Regression",
+                    "description": "Multi-Varie Linear Regression (Github)",
                     "img": "housing.jpg",
                     "imgCredits": "Michael Tuszynski on Pexels",
-                    "link": "#"
+                    "link": "https://github.com/Arnav-Bista/Multivariate-Linear-Regression"
                 }
             ]
         },
