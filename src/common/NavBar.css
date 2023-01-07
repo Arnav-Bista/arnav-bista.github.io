@@ -1,0 +1,91 @@
+nav {
+    float: right;
+    overflow: hidden;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    position: relative;
+    margin-left: 70px;
+    padding-top: 23px;
+}
+
+nav a {
+    color: #040f16;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+nav a:hover {
+    color: #B8336A;
+    transition: 0.2s ease-in-out;
+}
+
+nav a.selected {
+    color: #B8336A;
+}
+
+nav a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+nav a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: transform 0.2s ease-in-out;
+    transform-origin: bottom right;
+    background-color: #B8336A;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    /* background: #34344A; */
+    z-index: 100;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* background-color: #F3F3F4; */
+    backdrop-filter: blur(15px);
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo-text {
+    font-size: 40px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    color: #040f16;
+    transition: 0.2s ease-in-out;
+}
+
+.logo-text:hover {
+    color: #B8336A;
+    transition: 0.2s ease-in-out;
+}

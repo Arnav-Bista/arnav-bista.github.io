@@ -1,0 +1,86 @@
+{
+    "sections": [{
+            "title": "Interesting Projects",
+            "data": [{
+                    "title": "The Travelling Salesman Problem",
+                    "language": ["java"],
+                    "description": "Genetic Algortihms (Github)",
+                    "src": "./assets/images/ga.gif",
+                    "imgCredits": "Me",
+                    "link": "https://github.com/Arnav-Bista/Genetic-Algorithms"
+                },
+                {
+                    "title": "Lorenz System",
+                    "language": ["julia"],
+                    "description": "Simulation",
+                    "src": "lorenz.gif",
+                    "imgCredits": "Me",
+                    "link": "#"
+                },
+                {
+                    "title": "Conway's Game of Life",
+                    "language": ["python"],
+                    "description": "Simulation/Game (Github)",
+                    "src": "./assets/images/conways-game-of-life.gif",
+                    "imgCredits": "Lucas Vieira",
+                    "link": "https://github.com/Arnav-Bista/conways_game_of_life"
+                },
+                {
+                    "title": "Progress Tracker",
+                    "language" : ["flutter","dart"],
+                    "description" : "Cross Platform mobile application",
+                    "src" : "./assets/images/progress-tracker.png",
+                    "imgCredits" : "Me",
+                    "link" : "#"
+                }
+            ]
+        },
+        {
+            "title": "Machine Learning",
+            "data": [{
+                    "title": "Banknote Authentication",
+                    "language": ["julia"],
+                    "description": "Logistic Regression",
+                    "src": "./assets/images/banknote-auth.jpg",
+                    "imgCredits": "B.Roessler on dpa Alliance",
+                    "link": "./pages/banknote-auth.html"
+                },
+                {
+                    "title": "Iris Flower Classification",
+                    "language": ["julia"],
+                    "description": "K Nearest Neighbours",
+                    "src": "./assets/images/iris.jpg",
+                    "imgCredits": "Kevin CASTEL on Unsplash",
+                    "link": "./pages/iris-flower-classification.html"
+                },
+                {
+                    "title": "Breast Cancer Classification",
+                    "language": ["julia"],
+                    "description": "Logistic Regression",
+                    "src": "./assets/images/breast-cancer.jpg",
+                    "imgCredits": "UCI Machine Learning",
+                    "link": "#"
+                },
+                {
+                    "title": "Housing Sales Prediction",
+                    "language": ["julia", "python"],
+                    "description": "Multi-Varie Linear Regression (Github)",
+                    "src": "./assets/images/housing.jpg",
+                    "imgCredits": "Michael Tuszynski on Pexels",
+                    "link": "https://github.com/Arnav-Bista/Multivariate-Linear-Regression"
+                }
+            ]
+        },
+        {
+            "title": "Machine Learning Explained",
+            "data": [{
+                "title": "Logistic Regression",
+                "language": ["article"],
+                "description": "Basic binary classification model",
+                "src": "./assets/images/binary-classification.png",
+                "imgCredits": "Me",
+                "link": "#"
+            }]
+        }
+    ]
+}
