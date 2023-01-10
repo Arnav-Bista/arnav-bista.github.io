@@ -13,17 +13,17 @@
                     "title": "Lorenz System",
                     "language": ["julia"],
                     "description": "Simulation",
-                    "src": "lorenz.gif",
+                    "src": "./assets/images/lorenz.gif",
                     "imgCredits": "Me",
                     "link": "#"
                 },
                 {
                     "title": "Conway's Game of Life",
-                    "language": ["python"],
+                    "language": ["cpp"],
                     "description": "Simulation/Game (Github)",
                     "src": "./assets/images/conways-game-of-life.gif",
                     "imgCredits": "Lucas Vieira",
-                    "link": "https://github.com/Arnav-Bista/conways_game_of_life"
+                    "link": "https://github.com/Arnav-Bista/Conways-Game-of-Life"
                 },
                 {
                     "title": "Progress Tracker",
@@ -43,7 +43,7 @@
                     "description": "Logistic Regression",
                     "src": "./assets/images/banknote-auth.jpg",
                     "imgCredits": "B.Roessler on dpa Alliance",
-                    "link": "./pages/banknote-auth.html"
+                    "link": "https://github.com/Arnav-Bista/Banknote-Authentication"
                 },
                 {
                     "title": "Iris Flower Classification",
@@ -51,7 +51,7 @@
                     "description": "K Nearest Neighbours",
                     "src": "./assets/images/iris.jpg",
                     "imgCredits": "Kevin CASTEL on Unsplash",
-                    "link": "./pages/iris-flower-classification.html"
+                    "link": "https://github.com/Arnav-Bista/IrisFlower-KNN"
                 },
                 {
                     "title": "Breast Cancer Classification",
