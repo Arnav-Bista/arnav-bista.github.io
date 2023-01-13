@@ -10,14 +10,6 @@
                     "link": "https://github.com/Arnav-Bista/Genetic-Algorithms"
                 },
                 {
-                    "title": "Lorenz System",
-                    "language": ["julia"],
-                    "description": "Simulation",
-                    "src": "./assets/images/lorenz.gif",
-                    "imgCredits": "Me",
-                    "link": "#"
-                },
-                {
                     "title": "Conway's Game of Life",
                     "language": ["cpp"],
                     "description": "Simulation/Game (Github)",
@@ -70,17 +62,5 @@
                     "link": "https://github.com/Arnav-Bista/Multivariate-Linear-Regression"
                 }
             ]
-        },
-        {
-            "title": "Machine Learning Explained",
-            "data": [{
-                "title": "Logistic Regression",
-                "language": ["article"],
-                "description": "Basic binary classification model",
-                "src": "./assets/images/binary-classification.png",
-                "imgCredits": "Me",
-                "link": "#"
-            }]
-        }
-    ]
+        }]
 }
