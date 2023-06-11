@@ -17,7 +17,7 @@ export default function Portfolio() {
         <div>
             <div className='main-intro'>
                 <a>Arnav Bista</a>
-                <a>1st Year CS student at The University of St Andrews</a>
+                <a>2nd Year CS student at The University of St Andrews</a>
                 <a>This is my Portfolio.</a>
                 <a>(This is a work in progress)</a>
             </div>
