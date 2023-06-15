@@ -3,11 +3,11 @@
             "title": "Interesting Projects",
             "data": [{
                     "title": "The Travelling Salesman Problem",
-                    "language": ["java"],
-                    "description": "Genetic Algortihms (Github)",
+                    "language": ["rust"],
+                    "description": "Genetic Algortihms",
                     "src": "./assets/images/ga.gif",
                     "imgCredits": "Me",
-                    "link": "https://github.com/Arnav-Bista/Genetic-Algorithms"
+                    "link": "https://github.com/Arnav-Bista/genetic-algorithm"
                 },
                 {
                     "title": "Conway's Game of Life",
@@ -23,7 +23,15 @@
                     "description" : "Cross Platform mobile application",
                     "src" : "./assets/images/progress-tracker.png",
                     "imgCredits" : "Me",
-                    "link" : "#"
+                    "link" : "https://github.com/Arnav-Bista/progress_tracker"
+                },
+                {
+                    "title": "This Website",
+                    "language": ["javascript"],
+                    "description": "ReactJS website hosted on Github Pages",
+                    "src": "./assets/images/reactjs.svg",
+                    "imgCredits": "ReactJS",
+                    "link":"https://github.com/Arnav-Bista/arnav-bista.github.io"
                 }
             ]
         },
