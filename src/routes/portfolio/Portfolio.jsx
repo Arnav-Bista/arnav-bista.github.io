@@ -5,7 +5,7 @@ import Tile from './Tile.jsx';
 
 
 export default function Portfolio() {
-
+    
     const [data, setData] = useState({});
     fetch("../assets/data/projects.json")
         .then((response) => response.json())
